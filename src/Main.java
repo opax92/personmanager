@@ -31,6 +31,7 @@ public class Main {
         List<Employee> employeesFromCompany3 = employeeService.getEmployee("company3");
 
         for(Employee e : employeesFromCompany3){
+//            System.out.println(e.introduceYourself());
             e.work();
         }
 
